@@ -21,7 +21,7 @@
 }
 
 .container {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     max-width: 1160px;
     margin-left: auto;
     margin-right: auto;
@@ -30,10 +30,11 @@
 }
 
 header {
+    background-color: #fff;
     position: fixed;
     z-index: 1;
     width: 100%;
-    left: 0;
+    /* left: 0; */
     top: 0;
 }
 
@@ -102,6 +103,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 50px;
 }
 
 .hero-title {
@@ -124,20 +126,11 @@ header {
     text-align: left;
 }
 
-.links {
-    width: 147px;
-    height: 50px;
-    background: #EEEAFF;
-    padding: 15px;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 5px;
+ .links {
     margin-right: 10px;
-}
+} 
 
-.download {
-    color: #582EFF;
-}
+
 
 .own-terms-items {
     display: flex;
