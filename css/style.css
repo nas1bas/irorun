@@ -30,10 +30,11 @@
 }
 
 header {
+    margin-top: 20px;
     background-color: #fff;
     position: fixed;
     z-index: 1;
-    width: 100%;
+    /* width: 100%; */
     /* left: 0; */
     top: 0;
 }
@@ -53,9 +54,21 @@ header {
     opacity: 0.4;
 }
 
+.contact {
+    margin-top: 90px;
+    width: 108px;
+    height: 36px;
+    padding: 10px;
+    background-color: #39CDCC;
+    color: #222;
+    text-decoration: none;
+    border-radius: 5px;
+    transform:rotate(90deg);
+}
+
 .header-items {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .header-menu {
@@ -126,16 +139,15 @@ header {
     text-align: left;
 }
 
- .links {
+.links {
     margin-right: 10px;
-} 
-
-
+}
 
 .own-terms-items {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 140px;
 }
 
 .own-terms-title {
