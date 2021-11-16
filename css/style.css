@@ -55,11 +55,12 @@ header {
   display: flex;
 }
 
-
-
+.navbar__list {
+    list-style-type: none;
+}
 .navbar__link_active {
   list-style-type: none;
-  color: red;
+  color: #0082f3;
 }
 
 .navbar__link {
