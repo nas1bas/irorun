@@ -1,11 +1,4 @@
-/* work-sans-500 - latin */
-@font-face {
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/work-sans-v13-latin-500.woff2') format('woff2'), 
-         url('../fonts/work-sans-v13-latin-500.woff') format('woff'); 
-  }
+
   /* work-sans-regular - latin */
   @font-face {
     font-family: 'Work Sans';
@@ -16,16 +9,9 @@
   }
 
 
-.container {
-    max-width: 1160px;
-    margin: auto;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Work Sans';
-    color: #333333;
-}
+
+
 
 .main-list {
     display: flex;
@@ -155,3 +141,4 @@ body {
     text-decoration: none;
     color: #333333;
 }
+
