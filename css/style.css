@@ -1,10 +1,12 @@
+/*================================================
+/Font-Family
+================================================*/
 @font-face {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/work-sans-v13-latin-ext_latin-regular.woff2")
-      format("woff2"),
-    url("../fonts/work-sans-v13-latin-ext_latin-regular.woff") format("woff");
+  src: url("../fonts/work-sans-v13-latin-regular.woff2") format("woff2"),
+    url("../fonts/work-sans-v13-latin-regular.woff") format("woff");
 }
 
 *,
@@ -29,7 +31,6 @@ html {
   height: 100%;
 }
 
-
 .container {
   margin-top: 30px;
   max-width: 1160px;
@@ -47,12 +48,10 @@ footer {
   height: 150px;
 }
 
-
 img {
   max-width: 100%;
   height: auto;
 }
-
 
 header {
   margin-top: 20px;
@@ -74,18 +73,25 @@ header {
   opacity: 0.4;
 }
 
-.contact {
-  margin-top: 90px;
-  width: 108px;
-  height: 36px;
-  padding: 10px;
-  background-color: #39cdcc;
+.contact__btn {
+  width: 36px;
+  height: 108px;
+  padding: 8px 16px;
   color: #222;
+  background-color: #31c5a1;
   text-decoration: none;
-  border-radius: 5px;
+  transition: all 0.3s ease;
   transform: rotate(90deg);
 }
 
+.contact__btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.contact__btn:active {
+  opacity: 0.3;
+}
 .header-items {
   display: flex;
   /* align-items: center; */
@@ -133,6 +139,7 @@ header {
 }
 
 .hero-items {
+  margin-left: 224px;
   display: flex;
   align-items: center;
   justify-content: space-around;
