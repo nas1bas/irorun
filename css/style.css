@@ -197,6 +197,7 @@ img {
 .hero--image {
   margin-right: 150px;
 }
+
 .links {
   margin-right: 10px;
 }
@@ -289,7 +290,7 @@ img {
   box-shadow: 0 -15px 0 0px #31c5a1, 0px 0px 10px #b7b7b7;
 }
 
-.go-btn {
+.go-btn  {
   margin-top: 150px;
 }
 
@@ -328,6 +329,10 @@ img {
 ====================================*/
 
 footer {
+  align-items: center;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
   height: 150px;
 }
 
@@ -338,11 +343,9 @@ footer {
 }
 
 .foot-img {
-  display: block;
-  margin-top: 43px;
-  margin-left: 25px;
-  padding-right: 55px;
+  margin-top: 50px;
 }
+
 
 .foot-item {
   margin: 50px 25px;
@@ -350,7 +353,22 @@ footer {
 }
 
 .foot-list {
+  color: #222;
   width: 230px;
   font-size: 17px;
   line-height: 30px;
+}
+
+.profile {
+  color: #222;
+  transition: all 0.3s ease;
+}
+
+.profile:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.profile:active {
+  opacity: 0.3;
 }
